@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Waleed Bin Khalid - Personal Webpage</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+            background-color: #f4f4f4;
+        }
+        header {
+            background-color: #000;
+            color: #fff;
+            padding: 10px 0;
+            text-align: center;
+        }
+        .container {
+            width: 80%;
+            margin: auto;
+            overflow: hidden;
+        }
+        .bio {
+            background-color: #fff;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .bio h2 {
+            color: #333;
+        }
+        .bio p {
+            color: #666;
+        }
+        .business {
+            background-color: #e3f2fd;
+            padding: 20px;
+            margin-top: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        .business h2 {
+            color: #1e88e5;
+        }
+        .footer {
+            background-color: #ffeb3b;
+            color: #000;
+            text-align: center;
+            padding: 10px 0;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>Waleed Bin Khalid</h1>
+        </div>
+    </header>
+    <div class="container">
+        <div class="bio">
+            <h2>About Me</h2>
+            <p>Typing exparte known office management.</p>
+        </div>
+        <div class="business">
+            <h2>Business</h2>
+            <p>Business information goes here. You can include details about your services, achievements, or any other relevant information.</p>
+        </div>
+    </div>
+    <footer class="footer">
+        <p>Contact Information | Social Media Links</p>
+    </footer>
+</body>
+</html>
